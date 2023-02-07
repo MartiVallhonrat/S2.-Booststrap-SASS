@@ -1,0 +1,22 @@
+{
+  "name": "s2.-booststrap-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartiVallhonrat/S2.-Booststrap-SASS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartiVallhonrat/S2.-Booststrap-SASS/issues"
+  },
+  "homepage": "https://github.com/MartiVallhonrat/S2.-Booststrap-SASS#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

@@ -1,4 +1,35 @@
 $primary: #5265E1;
 $secondary: #FA5959;
+$enable-shadows: true;
+
+ul:hover {
+    color: #FA5959 !important;
+}
+
+.btn-secondary:hover {
+    background-color: white !important; 
+    color: #FA5959 !important;
+}
+
+.btn-primary:hover {
+    background-color: white !important;
+    color: #5265E1 !important;
+}
+
+.btn-light:hover {
+    background-color: white !important;
+    color: rgb(117, 115, 115) !important;
+    border-color: rgb(117, 115, 115) !important;
+}
+
+.rounded-pill-left {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.right-pill-position {
+    bottom: 0;
+    right: 0;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -22,14 +22,14 @@ ul:hover {
     border-color: rgb(117, 115, 115) !important;
 }
 
-.rounded-pill-left {
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
+.right-pill-position {
+    position: absolute;
+    bottom: 0;
+    left: 500px;
 }
 
-.right-pill-position {
-    bottom: 0;
-    right: 0;
-}
+//crear una clase per fer els bottons del nav-tab
+//apendre postion relative absolute
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+

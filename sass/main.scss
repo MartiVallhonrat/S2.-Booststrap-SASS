@@ -22,14 +22,9 @@ ul:hover {
     border-color: rgb(117, 115, 115) !important;
 }
 
-.right-pill-position {
-    position: absolute;
-    bottom: 0;
-    left: 500px;
+#myTab button {
+    background-color: black;
 }
-
-//crear una clase per fer els bottons del nav-tab
-//apendre postion relative absolute
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 

@@ -19,12 +19,6 @@ ul:hover {
   border-color: rgb(117, 115, 115) !important;
 }
 
-.right-pill-position {
-  position: absolute;
-  bottom: 0;
-  left: 500px;
-}
-
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

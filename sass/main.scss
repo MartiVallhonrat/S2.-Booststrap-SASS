@@ -22,5 +22,34 @@ ul:hover {
     border-color: rgb(117, 115, 115) !important;
 }
 
+.containerCards {
+    height: 700px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+%cards {
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:nth-child(1) {
+    @extend %cards;
+    align-items: flex-start;    
+}
+
+.card:nth-child(2) {
+    @extend %cards;
+    align-items: center;    
+}
+
+.card:nth-child(3) {
+    @extend %cards;
+    align-items: flex-end;    
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 

@@ -19,6 +19,32 @@ ul:hover {
   border-color: rgb(117, 115, 115) !important;
 }
 
+.containerCards {
+  height: 700px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card:nth-child(3), .card:nth-child(2), .card:nth-child(1) {
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:nth-child(1) {
+  align-items: flex-start;
+}
+
+.card:nth-child(2) {
+  align-items: center;
+}
+
+.card:nth-child(3) {
+  align-items: flex-end;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

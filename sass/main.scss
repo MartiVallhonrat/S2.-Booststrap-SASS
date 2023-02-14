@@ -2,13 +2,22 @@ $primary: #5265E1;
 $secondary: #FA5959;
 $enable-shadows: true;
 
-.nav-link {
-    background-color: #FA5959;
-}
+$nav-link-color:gray;
+$nav-link-hover-color: $secondary;
 
-.nav-tabs {
-    background-color: #FA5959;  
-}
+$nav-tabs-link-active-border-color:$secondary;
+$nav-tabs-link-active-color:solid black;
+
+$accordion-button-active-bg: white;
+$accordion-button-active-color: black;
+
+$accordion-icon-width: 1.5rem;
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+
+body {
+    overflow-x:hidden;
+  }
 
 ul:hover {
     color: #FA5959 !important;
@@ -28,6 +37,16 @@ ul:hover {
     background-color: white !important;
     color: rgb(117, 115, 115) !important;
     border-color: rgb(117, 115, 115) !important;
+}
+
+.containerCards {
+    height: 400px;
+}
+
+@media (max-width: 1200px) {
+    .containerCards {
+        height: auto;
+    }
 }
 
 %cards {
@@ -50,6 +69,27 @@ ul:hover {
 
 .card:nth-child(3) {
     @extend %cards;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-top: #FFFFFF;
+    border-right: #FFFFFF;
+    border-left: #FFFFFF;
+    border-bottom: 3px solid;
+}
+
+.nav-tabs .nav-link:hover {
+    border-top: #FFFFFF;
+    border-right: #FFFFFF;
+    border-left: #FFFFFF;
+}
+
+.accordion-button:hover {
+    color: #FA5959 !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
 }
 
 .footerIcons:hover {

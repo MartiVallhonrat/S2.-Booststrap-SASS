@@ -1,4 +1,12 @@
 @charset "UTF-8";
+.nav-link {
+  background-color: #FA5959;
+}
+
+.nav-tabs {
+  background-color: #FA5959;
+}
+
 ul:hover {
   color: #FA5959 !important;
 }
@@ -19,30 +27,18 @@ ul:hover {
   border-color: rgb(117, 115, 115) !important;
 }
 
-.containerCards {
-  height: 700px;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
 .card:nth-child(3), .card:nth-child(2), .card:nth-child(1) {
   border-radius: 25px;
-  padding: 10px;
+  padding: 30px 20px;
   display: flex;
   flex-direction: column;
-}
-
-.card:nth-child(1) {
-  align-items: flex-start;
-}
-
-.card:nth-child(2) {
+  height: 320px;
+  width: 280px;
   align-items: center;
 }
 
-.card:nth-child(3) {
-  align-items: flex-end;
+.footerIcons:hover {
+  fill: #FA5959 !important;
 }
 
 /*!

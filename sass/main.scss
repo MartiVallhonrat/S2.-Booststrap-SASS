@@ -2,6 +2,14 @@ $primary: #5265E1;
 $secondary: #FA5959;
 $enable-shadows: true;
 
+.nav-link {
+    background-color: #FA5959;
+}
+
+.nav-tabs {
+    background-color: #FA5959;  
+}
+
 ul:hover {
     color: #FA5959 !important;
 }
@@ -22,13 +30,6 @@ ul:hover {
     border-color: rgb(117, 115, 115) !important;
 }
 
-.containerCards {
-    height: 400px;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
 %cards {
     border-radius: 25px;
     padding: 30px 20px;
@@ -40,18 +41,15 @@ ul:hover {
 }
 
 .card:nth-child(1) {
-    @extend %cards;
-    align-self: flex-start;    
+    @extend %cards;   
 }
 
 .card:nth-child(2) {
     @extend %cards;
-    align-self: center;    
 }
 
 .card:nth-child(3) {
     @extend %cards;
-    align-self: flex-end;    
 }
 
 .footerIcons:hover {

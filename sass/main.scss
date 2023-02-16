@@ -17,7 +17,16 @@ $accordion-icon-active-color: $secondary;
 
 body {
     overflow-x:hidden;
-  }
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+}
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
 
 ul:hover {
     color: #FA5959 !important;
@@ -44,7 +53,7 @@ ul:hover {
 }
 
 .containerCards {
-    height: 400px;
+    min-height: 400px;
 }
 
 @media (max-width: 1200px) {

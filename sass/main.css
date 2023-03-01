@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .nav-link {
   background-color: #FA5959;
 }
@@ -40,6 +41,7 @@ ul:hover {
 .footerIcons:hover {
   fill: #FA5959 !important;
 }
+
 
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
